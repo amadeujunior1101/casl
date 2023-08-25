@@ -1,0 +1,48 @@
+### Simule o primeiro usuário
+GET http://localhost:3000/casl
+Content-Type: application/json
+
+{
+  "user": {
+    "id": 1,
+    "name": "user sysAdmin",
+    "role": "sysAdmin"
+  }
+}
+
+### Simule o segundo usuário
+POST  http://localhost:3000/casl
+Content-Type: application/json
+
+{
+  "user": {
+    "id": 2,
+    "name": "user admin",
+    "role": "admin"
+  }
+}
+
+### Simule o terceiro usuário
+
+GET http://localhost:3000/casl
+Content-Type: application/json
+
+{
+  "user": {
+    "id": 3,
+    "name": "user admin",
+    "role": "admin"
+  }
+}
+
+### Simule o terceiro usuário
+GET http://localhost:3000/casl
+Content-Type: application/json
+
+{
+  "user": {
+    "id": 4,
+    "name": "test3",
+    "role": "user"
+  }
+}
